@@ -50,11 +50,13 @@
 .container div{
     text-align: center;
 }
-.container div img{
+.comic{
     width: 90%;
     opacity: 0.5;
+    transition: all 0.5s ease;
 }
-.container img:hover{
+.comic:hover{
+    transform: scale(0.9);
     opacity: 1;
 }
 #img_inicio{
@@ -148,6 +150,10 @@ footer {
     1px -1px 0 white,
     -1px 1px 0 white,
     1px 1px 0 white;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: all 0.2s linear;
 }
 .link:hover{
     animation-duration: 3s;
